@@ -1,1 +1,1 @@
-# StudyTunes
+# LIFE Academia
