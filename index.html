@@ -14,9 +14,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="./assets/css/nav.css" />
     <link rel="stylesheet" href="./assets/css/swiper.css" />
-    <link rel="stylesheet" href="assets/css/plans.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/plans.css" />
+    <link rel="stylesheet" href="./assets/css/banners.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       defer
@@ -146,7 +149,7 @@
         </div>
       </section>
 
-      <section class="container__plans">
+      <section class="container__plans" id="planos">
         <div class="plans__content">
           <h6 class="plans__title">Escolha o seu plano</h6>
         </div>
@@ -239,12 +242,95 @@
         </div>
       </section>
 
-      <section class="container__plans second">
-        <div class="plans__content">
-          <h6 class="plans__title">Nossas unidades</h6>
+      <section class="container__plans second" id="unidades">
+        <div class="plans__content__unidades">
+          <h6 class="plans__unidades">Nossas unidades</h6>
+        </div>
+        <div class="container__banner">
+          <div class="banner__plan2">
+            <img
+              src="./assets/img/academia1.jpg"
+              alt="foto de mulher agachando"
+              class="banner__plan__img2"
+            />
+            <div class="banner__plan2__content">
+              <h3>Epitácio Pessoa</h3>
+              <p>Avenida Presidente Epitácio Pessoa, 1400 Expedicionários</p>
+              <p>João Pessoa - PB</p>
+            </div>
+          </div>
+          <div class="banner__plan2">
+            <img
+              src="./assets/img/academia2.jpg"
+              alt="foto de mulher agachando"
+              class="banner__plan__img2"
+            />
+            <div class="banner__plan2__content">
+              <h3>Mag Shopping</h3>
+              <p>Av. Gov. Flavio Ribeiro Coutinho, 115 Manaíra</p>
+              <p>João Pessoa - PB</p>
+            </div>
+          </div>
+          <div class="banner__plan2">
+            <img
+              src="./assets/img/academia3.jpg"
+              alt="foto de mulher agachando"
+              class="banner__plan__img2"
+            />
+            <div class="banner__plan2__content">
+              <h3>Tambaú</h3>
+              <p>Avenida Monsenhor Odilon Coutinho, 128 Cabo Branco</p>
+              <p>João Pessoa - PB</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer__container">
+        <div class="footer_logos">
+          <div class="footer_logo__principal">
+            <img src="./assets/img/toda branca 2.svg" alt="logo footer" />
+          </div>
+          <div class="footer_logo__icones">
+            <img src="./assets/img/_WhatsApp.png" alt="logo _WhatsApp" />
+            <img src="./assets/img/_Instagram.png" alt="logo instagram" />
+            <img src="assets/img/_YouTube.png" alt="logo youtube" />
+          </div>
+        </div>
+
+        <ul class="footer_lista">
+          <h3>Horário de funcionamento</h3>
+          <li class="footer_lista__item">Segunda à Sexta: 06:00 às 22:00</li>
+          <li class="footer_lista__item">Sábados: 08:30 às 14:00</li>
+          <li class="footer_lista__item">Domingos e Feriados 10:00 às 13:00</li>
+        </ul>
+
+        <ul class="footer_lista">
+          <h3>Entre em contato</h3>
+          <li class="footer_lista__item">Life_SAC@gmail.com</li>
+          <li class="footer_lista__item">
+            Avenida Presidente Epitácio Pessoa, Expedicionários
+          </li>
+        </ul>
+
+        <ul class="footer_lista">
+          <h3>Site</h3>
+          <li class="footer_lista__item">
+            <a href="index.html#unidades">Unidades</a>
+          </li>
+          <li class="footer_lista__item">
+            <a href="index.html#planos">Planos</a>
+          </li>
+          <li class="footer_lista__item">Contatos</li>
+          <li class="footer_lista__item">Área do aluno</li>
+          <li class="footer_lista__item">Matricule-se</li>
+        </ul>
+      </div>
+      <p class="copyright">
+        2024 Life Academia © Todos os direitos reservados. Desenvolvido por
+        Grupo Jeofton
+      </p>
+    </footer>
   </body>
 </html>
