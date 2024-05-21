@@ -12,7 +12,7 @@
   text-align: center;
   display: inline-block;
   font-size: 1.5rem;
-  width: 100%;
+  width: 90%;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
@@ -52,7 +52,7 @@
 
 .banner__plan__img {
   width: 415px;
-
+  cursor: pointer;
   height: auto;
 }
 
