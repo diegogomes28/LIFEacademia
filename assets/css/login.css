@@ -1,0 +1,79 @@
+.main___login {
+  height: 85vh;
+}
+.login__principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+}
+.info__content {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2em;
+}
+
+.login__content h2 {
+  font-size: 2.8rem;
+  color: var(--roxo);
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.login__content > p {
+  color: var(--cinza);
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label__form {
+  margin-right: 100%;
+  color: var(--roxo);
+  font-size: 1.3em;
+}
+
+.label__form::after {
+  content: "*";
+  color: var(--roxo);
+}
+
+.login__dados {
+  height: 30px;
+  border-radius: 30px;
+  border: 1.5px solid var(--roxo);
+  margin: 1em 0em;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+}
+input[type="submit"] {
+  background-color: var(--amarelo);
+  border: none;
+  width: 100%;
+  font-size: 1.1em;
+  color: var(--roxo);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.6em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.login__registrar p {
+  color: var(--roxo);
+  margin-top: 1em;
+}
+
+.login__registrar__button {
+  color: var(--roxo);
+  text-decoration: none;
+  font-weight: 700;
+}
