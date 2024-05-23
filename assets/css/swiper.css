@@ -1,0 +1,68 @@
+.swiper {
+  width: 100vw;
+  height: auto;
+}
+.logo_1 {
+  width: 110%;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  transition: transform 0.4s ease-in-out; /* Adicione a transição ao estado inicial */
+  height: auto;
+  width: auto;
+}
+.swiper-slide:hover {
+  transform: scale(1.04); /* Aumenta a imagem */
+}
+
+.swiper-slide:active {
+  transform: scale(1.04);
+}
+.swiper__content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.swiper__title {
+  font-size: 4.2em;
+  color: var(--branco);
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.swiper__subtitle {
+  font-size: 1.2em;
+  color: var(--branco);
+  font-weight: 700;
+  margin-bottom: 1em;
+  display: inline;
+  cursor: pointer;
+}
+
+.swiper-pagination {
+  position: relative;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+  border: 2px solid var(--roxo);
+  opacity: 0.9;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--roxo);
+  border: 2px solid var(--roxo);
+}
