@@ -1,0 +1,90 @@
+ .plans__content__unidades {
+  background-color: var(--amarelo);
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 50%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: 0.4em 0;
+  margin-bottom: -1em;
+}
+
+.plans__unidades {
+  color: var(--roxo);
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0.8em;
+  width: 100%;
+}
+
+.banner__plan2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.banner__plan__img2 {
+  width: 420px;
+  height: 300px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.banner__plan2__content {
+  margin: 2em 0;
+}
+
+.banner__plan2__content>h3 {
+  color: var(--roxo);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.banner__plan2__content>p {
+  font-size: 1rem;
+  color: var(--cinza);
+  margin-top: 1em;
+}
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  .plans__content__unidades {
+    width: 100%;
+    /* Reduz a largura para que ocupe toda a largura disponível */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    border-radius: 0;
+    /* Remove os cantos arredondados */
+    margin-bottom: 1em;
+    /* Ajusta a margem inferior */
+  }
+
+  .banner__plan__img2 {
+    width: 100%;
+    /* Faz a imagem ocupar toda a largura disponível */
+    height: auto;
+    /* Permite que a altura se ajuste automaticamente */
+    border-radius: 0;
+    /* Remove os cantos arredondados */
+  }
+
+  .banner__plan2__content {
+    margin: 1em 0;
+    /* Ajusta a margem para separar dos outros elementos */
+  }
+
+  .banner__plan2__content>h3 {
+    font-size: 1.5rem;
+    /* Reduz o tamanho do título */
+  }
+
+  .banner__plan2__content>p {
+    font-size: 0.9rem;
+    /* Reduz o tamanho do texto */
+  }
+}
