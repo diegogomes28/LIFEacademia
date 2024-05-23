@@ -5,6 +5,7 @@
     align-items: center;
     height: 5.25rem;
     padding: 1.25rem;
+    position: relative;
 }
 
 .perfil-imagem {
@@ -36,12 +37,17 @@
 }
 
 .nav__container-perfil {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav__logo-perfil {
     align-items: center;
+}
+
+.nav__logo-perfil img {
+    width: 100%;
 }
 
 .main-perfil {
