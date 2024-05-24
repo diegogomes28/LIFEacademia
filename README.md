@@ -42,7 +42,7 @@ Our web application ensures a positive and enjoyable user experience. The intuit
 ### STEP 5 -RUN APACHE; RUN MySQL
 ![STEP5](https://github.com/diegogomes28/LIFEacademia/assets/130615428/96bbdac9-ff21-45a1-8f32-da5e69d26fd1)
 
-### STEP 6 -Verify MySQL PORT (3306) If it is different, you need to change it in database.ph
+### STEP 6 -Verify MySQL PORT (3306) If it is different, you need to change it in database.php 
 ![STEP6](https://github.com/diegogomes28/LIFEacademia/assets/130615428/557b5864-aa84-458b-b33a-c4268fd83f63)
 
 ### STEP 7 -Changing if doesn't match 
@@ -67,3 +67,4 @@ http://localhost/LIFEacademia-main/
 ## Link final project
 
 Web application [LIFE academia](https://lifeaacademiajp.000webhostapp.com/).
+YouTube tutorial [LIFE academia - Youtube](https://www.youtube.com/watch?v=RdzVnpW3pEo).
