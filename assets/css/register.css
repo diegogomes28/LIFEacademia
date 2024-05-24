@@ -1,0 +1,51 @@
+.main___register {
+  height: 97vh;
+  margin-top: 5em;
+}
+
+.register__content h2 {
+  font-size: 2.8rem;
+  color: var(--roxo);
+  font-weight: 700;
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  gap: 12px;
+  height: auto;
+}
+.divisa__dado {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.register__form__mini__um {
+  display: grid;
+  grid-template-columns: 2fr 50%;
+}
+
+.register__form__mini__dois {
+  display: grid;
+  grid-template-columns: 2fr 50%;
+  gap: 10px;
+}
+
+.register__done {
+  color: var(--cinza);
+  font-weight: 300;
+  margin-top: 1em;
+}
+.register__done a {
+  color: var(--roxo);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.label__form {
+  width: 100%;
+}

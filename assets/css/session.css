@@ -1,0 +1,193 @@
+.header__nav-perfil {
+  background-color: var(--roxo);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 5.25rem;
+  padding: 1.25rem;
+  position: relative;
+}
+
+.perfil-imagem {
+  display: flex;
+  align-items: center;
+  margin-right: 0.625rem;
+}
+
+.perfil-imagem img {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+}
+
+.perfil-usuario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.perfil-usuario h2 {
+  color: var(--amarelo);
+}
+
+.perfil-usuario a {
+  color: var(--cinza);
+  text-decoration: none;
+  margin-top: 0.3125rem;
+}
+
+.nav__container-perfil {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav__logo-perfil {
+  align-items: center;
+}
+
+.nav__logo-perfil img {
+  width: 100%;
+}
+
+.main-perfil {
+  display: flex;
+}
+
+.sidebar {
+  width: 25rem;
+  background-color: var(--roxo);
+  color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1.25rem 0;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 10%;
+  width: 100%;
+  text-align: start;
+}
+
+.sidebar nav ul li {
+  margin: 0.9375rem 0;
+}
+
+.sidebar nav ul li a {
+  color: var(--branco);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.let_yellow:hover {
+  color: var(--amarelo);
+}
+
+.sidebar .contato-sair {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: auto;
+}
+
+.sidebar .contato-sair a {
+  color: var(--branco);
+  text-decoration: none;
+  margin: 0.625rem;
+}
+
+.info-aulas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aulas {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.aulas .aulas-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 2.5rem 1.875rem;
+  box-sizing: border-box;
+}
+
+.aulas .aulas-card img {
+  width: 100%;
+  border-top: 0.5rem;
+}
+
+.aulas .aulas-card h2 {
+  color: var(--roxo);
+  margin: 0.9375rem 0 0.625rem;
+}
+
+.aulas .aulas-card p {
+  color: var(--cinza);
+}
+
+.aulas .aulas-card button {
+  background-color: var(--amarelo);
+  color: var(--roxo);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.875rem;
+  cursor: pointer;
+  margin-top: 0.625rem;
+  width: 100%;
+}
+
+.hidratacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 1.25rem 2.5rem;
+}
+
+.hidratacao img {
+  width: 50%;
+  height: auto;
+}
+
+.hidratacao .text-hidrat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hidratacao .text-hidrat h2 {
+  color: var(--roxo);
+}
+
+.hidratacao .text-hidrat p {
+  color: var(--cinza);
+  text-align: start;
+}
+
+.hidratacao button a {
+  background-color: var(--amarelo);
+  color: var(--roxo);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.875rem;
+  cursor: pointer;
+  width: 50%;
+}
+
+.bemvindo {
+  color: var(--amarelo);
+  font-weight: 700;
+}

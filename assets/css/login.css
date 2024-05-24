@@ -1,0 +1,146 @@
+.main___login {
+  height: 85vh;
+}
+.login__principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+}
+.info__content {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2em;
+}
+
+.login__content h2 {
+  font-size: 2.8rem;
+  color: var(--roxo);
+  font-weight: 700;
+  margin-bottom: 0.4em;
+}
+
+.login__content > p {
+  color: var(--cinza);
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label__form {
+  margin-right: 100%;
+  color: var(--roxo);
+  font-size: 1.3em;
+}
+
+.label__form::after {
+  content: "*";
+  color: var(--roxo);
+}
+
+.login__dados {
+  height: 30px;
+  border-radius: 30px;
+  border: 1.5px solid var(--roxo);
+  margin: 1em 0em;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+}
+input[type="submit"] {
+  background-color: var(--amarelo);
+  border: none;
+  width: 100%;
+  font-size: 1.1em;
+  color: var(--roxo);
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.6em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.login__registrar p {
+  color: var(--roxo);
+  margin-top: 1em;
+}
+
+.login__registrar__button {
+  color: var(--roxo);
+  text-decoration: none;
+  font-weight: 700;
+}
+.error_message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Media Query para dispositivos móveis com largura máxima de 480px */
+@media (max-width: 480px) {
+  .nav__container {
+    margin: 0;
+    /* Remove a margem lateral */
+    padding: 0.4em;
+    /* Ajusta o preenchimento */
+  }
+
+  .nav__ul {
+    flex-direction: column;
+    /* Altera a direção para coluna */
+    gap: 0.5rem;
+    /* Ajusta o espaço entre os itens */
+  }
+
+  .area,
+  .matricula {
+    font-size: 0.8rem;
+    /* Reduz o tamanho da fonte */
+    padding: 0.1rem 1rem;
+    /* Ajusta o preenchimento */
+    background-color: var(--amarelo);
+  }
+
+  .login__nav__container {
+    margin: 0;
+    /* Remove a margem lateral */
+  }
+}
+
+/* Media Queries */
+
+/* Telas menores que 480px (apenas para dispositivos móveis) */
+@media (max-width: 480px) {
+  .footer_logos {
+    margin-right: 0;
+    gap: 0.5em;
+  }
+
+  .footer_lista {
+    font-size: 0.8em;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .footer_lista h3 {
+    font-size: 1.3em;
+    /* Ajusta o tamanho do título */
+  }
+
+  .footer__container {
+    flex-direction: column;
+    /* Altera a direção do flexbox para coluna */
+    margin: 2em;
+    /* Ajusta a margem */
+    gap: 15px;
+    /* Define o espaçamento entre os elementos */
+  }
+}
