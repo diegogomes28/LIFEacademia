@@ -9,11 +9,7 @@ Once you complete the form and validate your information, you can access the stu
 Our web application ensures a positive and enjoyable user experience. The intuitive and user-friendly design, with easy and fast navigation, features the colors **yellow, purple, and white**. This departure from the norm aims to convey a message of **energy, positivity, and harmony**. The application also features clear action buttons and easy-to-fill forms.
 
 ## Team Members
-* Andrew - Database Connection
 * Diego - Website Creation
-* Eduarda - Responsiveness
-* Gabriela - Login/session.php Page Lead
-* Ivanise - Database Creation
 * Júlia - UX/UI Prototyping
 
 ## Development tools:
